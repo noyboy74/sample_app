@@ -6,7 +6,6 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-#gem 'pg'
 gem 'therubyracer'
 
 # Gems used only for assets and not required
@@ -21,6 +20,7 @@ gem 'jquery-rails'
 
 group :development do
 	gem 'rspec-rails'
+	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 group :test do
 	gem 'rspec' 
